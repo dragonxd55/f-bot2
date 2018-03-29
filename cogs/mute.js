@@ -1,5 +1,5 @@
     const Discord = require("discord.js");
-const prefix = "&";
+const prefix = "F-";
     module.exports.run = async (bot, message,) => {
             let command = message.content.toLowerCase().split(" ")[0].slice(prefix.length)
             if (!message.content.startsWith(prefix)) return;
