@@ -12,7 +12,7 @@ const pretty = require("pretty-ms");
 const rn = require("random-number");
 const done = {};
 const msg = parseInt();
-const prefix = "&";
+const prefix = "F-";
 //------------end require ----------//
 
 //-----------strat var global -------------//
