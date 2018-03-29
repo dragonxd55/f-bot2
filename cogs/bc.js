@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-var prefix = '&';
+var prefix = 'F-';
 module.exports.run = async (bot, message,) => {
 
                    
@@ -12,7 +12,7 @@ var per = "You Don\'t Have Permission ";
 var request = `Requested By ${message.author.username}`;
 if (!message.member.hasPermission('ADMINISTRATOR')) return message.reply(per + "Administrator");
 if (!args) return message.reply('You Must Place An Argument To Do This Command');
-if(message.content.startsWith(prefix + 'فعلني')) {
+if(message.content.startsWith(prefix + 'bc')) {
 message.channel.send('هل انتا متاكد انك تريد ارسال الرسالة').then(msg => {
 msg.react('✅')
 msg.react('❌')
